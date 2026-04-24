@@ -1,0 +1,32 @@
+locus_id,contig,ref_chr,chr_label,locus_start,locus_stop,projection_status,projection_confidence,projection_interval_width_bp,feature_type,product,note,instability_class,feature_start,feature_stop,distance_bp,overlaps_locus,within_projected_interval
+L1,contig_10,NC_006067.1,ChrA,112817,116516,paired_flanks_broad_interval,moderate,3700,rRNA,ribosomal RNA,5S RNA remnant,moderate_rRNA,96487,96546,16271,False,False
+L1,contig_10,NC_006067.1,ChrA,112817,116516,paired_flanks_broad_interval,moderate,3700,tRNA,tRNA-Lys,,moderate_tRNA,89142,89223,23594,False,False
+L1,contig_10,NC_006067.1,ChrA,112817,116516,paired_flanks_broad_interval,moderate,3700,tRNA,tRNA-Leu,,moderate_tRNA,161984,162079,45468,False,False
+L1,contig_10,NC_006067.1,ChrA,112817,116516,paired_flanks_broad_interval,moderate,3700,tRNA,tRNA-Leu,,moderate_tRNA,163083,163182,46567,False,False
+L2,contig_13,NC_006068.1,ChrB,764286,765333,single_flank_fallback,low,1048,CDS,YALI0B05742p,similar to uniprot|P07347 Saccharomyces cerevisiae YHR013C N-terminal acetyltransferase complex ARD1 subunit (EC 2.3.1.-)(Arrest-defective protein 1),high_repeat,774503,775090,9170,False,False
+L2,contig_13,NC_006068.1,ChrB,764286,765333,single_flank_fallback,low,1048,long_terminal_repeat,,LTRyl1,high_repeat,727890,728162,36124,False,False
+L2,contig_13,NC_006068.1,ChrB,764286,765333,single_flank_fallback,low,1048,tRNA,tRNA-Thr,,moderate_tRNA,807404,807475,42071,False,False
+L2,contig_13,NC_006068.1,ChrB,764286,765333,single_flank_fallback,low,1048,tRNA,tRNA-Lys,,moderate_tRNA,810753,810834,45420,False,False
+L3,contig_5,NC_006071.1,ChrE,3352038,3352050,paired_flanks,high,13,CDS,YALI0E28248p,similar to uniprot|P20133 Saccharomyces cerevisiae YPR176c BET2 geranylgeranyltransferase type II beta subunit,high_repeat,3336046,3336879,15159,False,False
+L3,contig_5,NC_006071.1,ChrE,3352038,3352050,paired_flanks,high,13,tRNA,tRNA-Arg,,moderate_tRNA,3319880,3319968,32070,False,False
+L3,contig_5,NC_006071.1,ChrE,3352038,3352050,paired_flanks,high,13,tRNA,tRNA-Ile,,moderate_tRNA,3318704,3318795,33243,False,False
+L3,contig_5,NC_006071.1,ChrE,3352038,3352050,paired_flanks,high,13,tRNA,tRNA-Gln,,moderate_tRNA,3318610,3318694,33344,False,False
+L4,contig_8,NC_006071.1,ChrE,1902657,1904821,paired_flanks_broad_interval,moderate,2165,tRNA,tRNA-Pro,,moderate_tRNA,1899830,1899938,2719,False,False
+L4,contig_8,NC_006071.1,ChrE,1902657,1904821,paired_flanks_broad_interval,moderate,2165,tRNA,tRNA-Leu,,moderate_tRNA,1916697,1916796,11876,False,False
+L4,contig_8,NC_006071.1,ChrE,1902657,1904821,paired_flanks_broad_interval,moderate,2165,long_terminal_repeat,,LTRyl1,high_repeat,1885629,1885814,16843,False,False
+L4,contig_8,NC_006071.1,ChrE,1902657,1904821,paired_flanks_broad_interval,moderate,2165,CDS,YALI0E16346p,highly similar to uniprot|O13426 Candida albicans Serine hydroxymethyltransferase cytosolic (EC 2.1.2.1) (Serine methylase) (Glycine hydroxymethyltransferase) (SHMT) (SHMII),high_repeat,1942061,1943440,37240,False,False
+L4,contig_8,NC_006071.1,ChrE,1902657,1904821,paired_flanks_broad_interval,moderate,2165,CDS,YALI0E16346p,highly similar to uniprot|O13426 Candida albicans Serine hydroxymethyltransferase cytosolic (EC 2.1.2.1) (Serine methylase) (Glycine hydroxymethyltransferase) (SHMT) (SHMII),high_repeat,1943787,1943822,38966,False,False
+L5,contig_9,NC_006070.1,ChrD,2208054,2214070,paired_flanks_broad_interval,moderate,6017,tRNA,tRNA-Ala,,moderate_tRNA,2221336,2221409,7266,False,False
+L5,contig_9,NC_006070.1,ChrD,2208054,2214070,paired_flanks_broad_interval,moderate,6017,CDS,YALI0D17556p,similar to uniprot|Q03175 Saccharomyces cerevisiae YMR101c SRT1 cis-prenyltransferase homologue,high_repeat,2157453,2158466,49588,False,False
+L6,contig_9,NC_006070.1,ChrD,1675540,1683306,paired_flanks_broad_interval,moderate,7767,tRNA,tRNA-Ala,,moderate_tRNA,1659282,1659353,16187,False,False
+L6,contig_9,NC_006070.1,ChrD,1675540,1683306,paired_flanks_broad_interval,moderate,7767,tRNA,tRNA-Gly,,moderate_tRNA,1658316,1658396,17144,False,False
+L6,contig_9,NC_006070.1,ChrD,1675540,1683306,paired_flanks_broad_interval,moderate,7767,tRNA,tRNA-Tyr,,moderate_tRNA,1657820,1657909,17631,False,False
+L6,contig_9,NC_006070.1,ChrD,1675540,1683306,paired_flanks_broad_interval,moderate,7767,tRNA,tRNA-Ala,,moderate_tRNA,1657350,1657423,18117,False,False
+L6,contig_9,NC_006070.1,ChrD,1675540,1683306,paired_flanks_broad_interval,moderate,7767,CDS,YALI0D13860p,similar to uniprot|Q06504 Saccharomyces cerevisiae YPR131c NAT3 N-acetyltransferase complex subunit ARD1P,high_repeat,1717758,1718291,34452,False,False
+L6,contig_9,NC_006070.1,ChrD,1675540,1683306,paired_flanks_broad_interval,moderate,7767,tRNA,tRNA-Ser,,moderate_tRNA,1725800,1725881,42494,False,False
+L6,contig_9,NC_006070.1,ChrD,1675540,1683306,paired_flanks_broad_interval,moderate,7767,CDS,YALI0D13948p,similar to uniprot|Q10272 Schizosaccharomyces pombe WD- repeat protein crb3,high_repeat,1726399,1727679,43093,False,False
+L7,contig_9,NC_006070.1,ChrD,1632503,1640142,paired_flanks_broad_interval,moderate,7640,tRNA,tRNA-Ala,,moderate_tRNA,1657350,1657423,17208,False,False
+L7,contig_9,NC_006070.1,ChrD,1632503,1640142,paired_flanks_broad_interval,moderate,7640,tRNA,tRNA-Tyr,,moderate_tRNA,1657820,1657909,17678,False,False
+L7,contig_9,NC_006070.1,ChrD,1632503,1640142,paired_flanks_broad_interval,moderate,7640,tRNA,tRNA-Gly,,moderate_tRNA,1658316,1658396,18174,False,False
+L7,contig_9,NC_006070.1,ChrD,1632503,1640142,paired_flanks_broad_interval,moderate,7640,tRNA,tRNA-Ala,,moderate_tRNA,1659282,1659353,19140,False,False
+L7,contig_9,NC_006070.1,ChrD,1632503,1640142,paired_flanks_broad_interval,moderate,7640,CDS,YALI0D12859p,weakly similar to uniprot|Q8C1X3 Mus musculus Hypothetical S-adenosyl-L-methionine-dependent methyltransferases structure containing protein,high_repeat,1597988,1599475,33028,False,False

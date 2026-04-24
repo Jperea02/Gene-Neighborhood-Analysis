@@ -1,0 +1,14 @@
+Name,Sequence Name,Minimum,Maximum,Length,Direction
+Hyg,contig_10,2137308,2138333,1026,forward
+MhFAR,contig_10,2139017,2140555,1539,forward
+URA3,contig_13,2292786,2293646,861,reverse
+FAA1,contig_13,2294477,2296552,2076,reverse
+FAT1,contig_13,2297422,2299560,2139,reverse
+GFP,contig_5,470702,471421,720,forward
+MhFAR,contig_5,472383,473921,1539,forward
+FAT1,contig_8,1923117,1925255,2139,reverse
+FAA1,contig_9,1434824,1436899,2076,forward
+WS,contig_9,1967986,1969359,1374,reverse
+GFP,contig_9,1970321,1971040,720,reverse
+GFP,contig_9,2016419,2017138,720,forward
+MhFAR,contig_9,2018100,2019638,1539,forward
