@@ -1,0 +1,21 @@
+locus_id,contig,ref_chr,chr_label,locus_start,locus_stop,projection_status,projection_confidence,projection_interval_width_bp,feature_type,product,note,instability_class,feature_start,feature_stop,distance_bp,overlaps_locus,within_projected_interval
+L1,contig_11,NC_006071.1,ChrE,3352038,3352050,paired_flanks,high,13,CDS,YALI0E28248p,similar to uniprot|P20133 Saccharomyces cerevisiae YPR176c BET2 geranylgeranyltransferase type II beta subunit,high_repeat,3336046,3336879,15159,False,False
+L1,contig_11,NC_006071.1,ChrE,3352038,3352050,paired_flanks,high,13,tRNA,tRNA-Arg,,moderate_tRNA,3319880,3319968,32070,False,False
+L1,contig_11,NC_006071.1,ChrE,3352038,3352050,paired_flanks,high,13,tRNA,tRNA-Ile,,moderate_tRNA,3318704,3318795,33243,False,False
+L1,contig_11,NC_006071.1,ChrE,3352038,3352050,paired_flanks,high,13,tRNA,tRNA-Gln,,moderate_tRNA,3318610,3318694,33344,False,False
+L2,contig_22,NC_006067.1,ChrA,114568,114604,paired_flanks,high,37,rRNA,ribosomal RNA,5S RNA remnant,moderate_rRNA,96487,96546,18022,False,False
+L2,contig_22,NC_006067.1,ChrA,114568,114604,paired_flanks,high,37,tRNA,tRNA-Lys,,moderate_tRNA,89142,89223,25345,False,False
+L2,contig_22,NC_006067.1,ChrA,114568,114604,paired_flanks,high,37,tRNA,tRNA-Leu,,moderate_tRNA,161984,162079,47380,False,False
+L2,contig_22,NC_006067.1,ChrA,114568,114604,paired_flanks,high,37,tRNA,tRNA-Leu,,moderate_tRNA,163083,163182,48479,False,False
+L3,contig_26,NC_006070.1,ChrD,1675540,1683163,paired_flanks_broad_interval,moderate,7624,tRNA,tRNA-Ala,,moderate_tRNA,1659282,1659353,16187,False,False
+L3,contig_26,NC_006070.1,ChrD,1675540,1683163,paired_flanks_broad_interval,moderate,7624,tRNA,tRNA-Gly,,moderate_tRNA,1658316,1658396,17144,False,False
+L3,contig_26,NC_006070.1,ChrD,1675540,1683163,paired_flanks_broad_interval,moderate,7624,tRNA,tRNA-Tyr,,moderate_tRNA,1657820,1657909,17631,False,False
+L3,contig_26,NC_006070.1,ChrD,1675540,1683163,paired_flanks_broad_interval,moderate,7624,tRNA,tRNA-Ala,,moderate_tRNA,1657350,1657423,18117,False,False
+L3,contig_26,NC_006070.1,ChrD,1675540,1683163,paired_flanks_broad_interval,moderate,7624,CDS,YALI0D13860p,similar to uniprot|Q06504 Saccharomyces cerevisiae YPR131c NAT3 N-acetyltransferase complex subunit ARD1P,high_repeat,1717758,1718291,34595,False,False
+L3,contig_26,NC_006070.1,ChrD,1675540,1683163,paired_flanks_broad_interval,moderate,7624,tRNA,tRNA-Ser,,moderate_tRNA,1725800,1725881,42637,False,False
+L3,contig_26,NC_006070.1,ChrD,1675540,1683163,paired_flanks_broad_interval,moderate,7624,CDS,YALI0D13948p,similar to uniprot|Q10272 Schizosaccharomyces pombe WD- repeat protein crb3,high_repeat,1726399,1727679,43236,False,False
+L4,contig_26,NC_006070.1,ChrD,1632503,1640142,paired_flanks_broad_interval,moderate,7640,tRNA,tRNA-Ala,,moderate_tRNA,1657350,1657423,17208,False,False
+L4,contig_26,NC_006070.1,ChrD,1632503,1640142,paired_flanks_broad_interval,moderate,7640,tRNA,tRNA-Tyr,,moderate_tRNA,1657820,1657909,17678,False,False
+L4,contig_26,NC_006070.1,ChrD,1632503,1640142,paired_flanks_broad_interval,moderate,7640,tRNA,tRNA-Gly,,moderate_tRNA,1658316,1658396,18174,False,False
+L4,contig_26,NC_006070.1,ChrD,1632503,1640142,paired_flanks_broad_interval,moderate,7640,tRNA,tRNA-Ala,,moderate_tRNA,1659282,1659353,19140,False,False
+L4,contig_26,NC_006070.1,ChrD,1632503,1640142,paired_flanks_broad_interval,moderate,7640,CDS,YALI0D12859p,weakly similar to uniprot|Q8C1X3 Mus musculus Hypothetical S-adenosyl-L-methionine-dependent methyltransferases structure containing protein,high_repeat,1597988,1599475,33028,False,False
