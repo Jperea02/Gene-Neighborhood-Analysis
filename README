@@ -1,1 +1,150 @@
+# Yarrowia Engineered-Strain Genomic Context Pipeline
 
+## Overview
+
+This pipeline identifies and interprets integration sites of engineered DNA cassettes in *Yarrowia lipolytica* genomes assembled from long-read sequencing.
+
+It is designed for **W29/PO1f-derived strains** and integrates:
+- motif-based detection of engineered constructs
+- structural alignment to a reference genome (CLIB122)
+- breakpoint inference using flanking sequence alignment
+- confidence-aware genomic context analysis
+
+The output provides biologically interpretable summaries of:
+- insertion sites
+- nearby genes
+- essential genes
+- instability-associated genomic features
+
+---
+
+## Workflow Summary
+
+### Step 1 — Motif Definition
+Builds a FASTA file of engineered sequences (e.g., GFP, MhFAR, URA3).
+
+### Step 2 — Load Inputs
+Loads:
+- assembled contigs (engineered strain)
+- CLIB122 reference genome
+
+### Step 3 — Contig Assignment
+Assigns contigs to reference chromosomes using sequence similarity.
+
+### Step 4 — Motif Detection
+Finds engineered cassette components via exact sequence matching.
+
+### Step 5 — Locus Identification
+Groups motif hits into candidate integration loci.
+
+---
+
+### Step 6A — Structural Alignment (minimap2)
+Aligns contigs to CLIB122 to identify large-scale structural blocks:
+- chromosome identity
+- orientation (forward/reverse)
+- structural rearrangements (e.g., inversions)
+
+### Step 6B — Breakpoint Inference
+Uses paired flanking sequences to infer insertion intervals:
+- evaluates multiple candidate alignments
+- scores left/right flank pairs
+- retries with multiple flank sizes (10 kb → 5 kb → 2 kb)
+
+Outputs:
+- insertion coordinates
+- interval width
+- confidence level
+
+---
+
+### Step 7 — Annotation Parsing
+Processes CLIB122 GFF3 into a structured annotation table.
+
+### Step 8 — Essential Gene Mapping
+Maps CLIB89 essential genes to CLIB122 orthologs.
+
+### Step 9 — Instability Feature Extraction
+Extracts genomic features associated with instability:
+- repeat regions
+- mobile elements
+- tRNA / rRNA loci
+
+---
+
+### Step 10 — Neighborhood Analysis
+Performs **confidence-aware interpretation**:
+
+- Genes within insertion region
+- Nearest flanking genes
+- Essential genes in window
+- Instability features near insertion (≤5 kb and ≤20 kb)
+
+---
+
+### Step 11 — Output Generation
+Writes summary and detailed tables for downstream analysis.
+
+---
+
+## Key Concepts
+
+### 1. Insertion Confidence
+
+Each locus is classified as:
+
+| Confidence | Interpretation |
+|----------|----------------|
+| **High** | Precise insertion site (≤ ~1 kb) |
+| **Moderate** | Localized insertion region (~5–10 kb) |
+| **Low** | Chromosomal assignment only |
+
+---
+
+### 2. Reference Coordinate System
+
+- All loci are mapped to **CLIB122 coordinates**
+- Essential genes are derived from **CLIB89**, mapped via orthologs
+- Distances represent:
+  
+  > distance to CLIB122 orthologs of essential genes
+
+---
+
+### 3. Instability Features
+
+Instability features are derived from the **reference genome annotation**, not directly validated in the engineered strain.
+
+They indicate:
+- repeat density
+- structural complexity
+- potential recombination-prone regions
+
+The summary distinguishes:
+- **≤5 kb** → immediate proximity (high relevance)
+- **≤20 kb** → local context
+
+---
+
+## Input Requirements
+
+### Required Files
+- `contigs_fasta` — assembled genome of engineered strain
+- `CLIB122_genome.fna` — reference genome
+- `CLIB122_annotation.gff3` — genome annotation
+
+### Embedded Data
+- engineered motif sequences (defined within script)
+
+---
+
+## Dependencies
+
+### Python
+- pandas
+- biopython
+- openpyxl
+
+Install:
+```bash
+pip install pandas biopython openpyxl
