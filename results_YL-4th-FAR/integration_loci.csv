@@ -1,0 +1,5 @@
+locus_id,contig,locus_start,locus_stop,motifs_present,strand_set,motif_count
+L1,contig_3,26384,31428,"GFP,MhFAR,URA3",reverse,3
+L2,contig_5,1074581,1079625,"GFP,MhFAR,URA3",forward,3
+L3,contig_5,3937552,3940771,"GFP,MhFAR",reverse,2
+L4,contig_6,276819,280038,"GFP,MhFAR",reverse,2

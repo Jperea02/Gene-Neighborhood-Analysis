@@ -1,0 +1,15 @@
+,value
+strain_name,YL-4th-FAR
+contigs_fasta,YL-4th-FAR_reference.fasta
+clib122_genome_fasta,../reference_data/CLIB122_genome.fna
+clib122_gff3,../reference_data/CLIB122_annotation.gff
+clib89_essential_table,../reference_data/CLIB89_essential_genes.xlsx
+clib89_clib122_mapping_table,../reference_data/CLIB89_CLIB122_mapping.xlsx
+output_dir,results_YL-4th-FAR
+integration_grouping_distance_bp,10000
+gene_neighborhood_n,5
+essential_neighborhood_n,5
+instability_neighborhood_n,5
+kmer_size,17
+use_minimap2_projection,True
+minimap2_preset,asm5

@@ -1,0 +1,11 @@
+Name,Sequence Name,Minimum,Maximum,Length,Direction
+URA3,contig_3,26384,27244,861,reverse
+MhFAR,contig_3,28209,29747,1539,reverse
+GFP,contig_3,30709,31428,720,reverse
+GFP,contig_5,1074581,1075300,720,forward
+MhFAR,contig_5,1076262,1077800,1539,forward
+URA3,contig_5,1078765,1079625,861,forward
+MhFAR,contig_5,3937552,3939090,1539,reverse
+GFP,contig_5,3940052,3940771,720,reverse
+MhFAR,contig_6,276819,278357,1539,reverse
+GFP,contig_6,279319,280038,720,reverse

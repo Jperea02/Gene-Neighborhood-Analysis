@@ -1,0 +1,5 @@
+locus_id,contig,motifs_present,strand_set,motif_count,contig_locus_start,contig_locus_stop,block_contig_start,block_contig_stop,ref_chr,chr_label,block_ref_start,block_ref_stop,block_strand,block_mapq,block_percent_identity,block_aln_len
+L1,contig_3,"GFP,MhFAR,URA3",reverse,3,26384,31428,11,4137008,NC_006071.1,ChrE,18,4190300,-,60,95.87955039197224,4213181
+L2,contig_5,"GFP,MhFAR,URA3",forward,3,1074581,1079625,12,4011572,NC_006072.1,ChrF,2244,4003128,+,60,98.07533365756723,4021788
+L3,contig_5,"GFP,MhFAR",reverse,2,3937552,3940771,12,4011572,NC_006072.1,ChrF,2244,4003128,+,60,98.07533365756723,4021788
+L4,contig_6,"GFP,MhFAR",reverse,2,276819,280038,37729,3640041,NC_006070.1,ChrD,192,3633152,-,60,96.0917175425805,3655135

@@ -1,0 +1,20 @@
+locus_id,contig,ref_chr,chr_label,locus_start,locus_stop,projection_status,projection_confidence,projection_interval_width_bp,feature_type,product,note,instability_class,feature_start,feature_stop,distance_bp,overlaps_locus,within_projected_interval
+L1,contig_3,NC_006071.1,ChrE,4152078,4159470,paired_flanks_broad_interval,moderate,7393,mobile_genetic_element,,uniprot|Q9C0U1 Yarrowia lipolytica Ylt1 LTR-retrotransposon,high_repeat,4173487,4182939,14017,False,False
+L1,contig_3,NC_006071.1,ChrE,4152078,4159470,paired_flanks_broad_interval,moderate,7393,long_terminal_repeat,,LTR of uniprot|Q9C0U1 Yarrowia lipolytica Ylt1 LTR-retrotransposon,high_repeat,4173487,4174200,14017,False,False
+L1,contig_3,NC_006071.1,ChrE,4152078,4159470,paired_flanks_broad_interval,moderate,7393,CDS,YALI0E34980p,uniprot|Q9C0U1 Yarrowia lipolytica LTR-retrotransposon,high_repeat,4174312,4182177,14842,False,False
+L1,contig_3,NC_006071.1,ChrE,4152078,4159470,paired_flanks_broad_interval,moderate,7393,long_terminal_repeat,,LTR of uniprot|Q9C0U1 Yarrowia lipolytica Ylt1 LTR-retrotransposon,high_repeat,4182226,4182939,22756,False,False
+L1,contig_3,NC_006071.1,ChrE,4152078,4159470,paired_flanks_broad_interval,moderate,7393,long_terminal_repeat,,LTR of uniprot|Q9C0U1 Yarrowia lipolytica Ylt1 LTR-retrotransposon,high_repeat,4125419,4126132,25946,False,False
+L1,contig_3,NC_006071.1,ChrE,4152078,4159470,paired_flanks_broad_interval,moderate,7393,CDS,YALI0E34606p,uniprot|Q9C0U1 Yarrowia lipolytica LTR-retrotransposon,high_repeat,4117505,4125370,26708,False,False
+L1,contig_3,NC_006071.1,ChrE,4152078,4159470,paired_flanks_broad_interval,moderate,7393,long_terminal_repeat,,LTR of uniprot|Q9C0U1 Yarrowia lipolytica Ylt1 LTR-retrotransposon,high_repeat,4116680,4117393,34685,False,False
+L1,contig_3,NC_006071.1,ChrE,4152078,4159470,paired_flanks_broad_interval,moderate,7393,long_terminal_repeat,,LTRyl1,high_repeat,4199075,4199286,39605,False,False
+L2,contig_5,NC_006072.1,ChrF,1075355,1075366,paired_flanks,high,12,tRNA,tRNA-Leu,,moderate_tRNA,1075595,1075694,229,False,False
+L2,contig_5,NC_006072.1,ChrF,1075355,1075366,paired_flanks,high,12,CDS,YALI0F07260p,uniprot|Q70MH4 Yarrowia lipolytica Alpha 1 6 mannosyltransferase,high_repeat,1061997,1063190,12165,False,False
+L2,contig_5,NC_006072.1,ChrF,1075355,1075366,paired_flanks,high,12,rRNA,ribosomal RNA,5S RNA,moderate_rRNA,1055614,1055732,19623,False,False
+L2,contig_5,NC_006072.1,ChrF,1075355,1075366,paired_flanks,high,12,tRNA,tRNA-Asn,,moderate_tRNA,1053649,1053738,21617,False,False
+L2,contig_5,NC_006072.1,ChrF,1075355,1075366,paired_flanks,high,12,CDS,YALI0F07106p,weakly similar to uniprot|P38680 Neurospora crassa NCU06619.1 N amino acid transport system protein (methyltryptophan resistance protein),high_repeat,1046684,1048420,26935,False,False
+L3,contig_5,NC_006072.1,ChrF,3932835,3932839,paired_flanks,high,5,tRNA,tRNA-Leu,,moderate_tRNA,3938324,3938423,5485,False,False
+L3,contig_5,NC_006072.1,ChrF,3932835,3932839,paired_flanks,high,5,long_terminal_repeat,,LTRyl1,high_repeat,3938572,3938841,5733,False,False
+L3,contig_5,NC_006072.1,ChrF,3932835,3932839,paired_flanks,high,5,CDS,YALI0F31273p,highly similar to uniprot|P18562 Saccharomyces cerevisiae YHR128w FUR1 uracil phosphoribosyltransferase,high_repeat,3899318,3899971,32864,False,False
+L3,contig_5,NC_006072.1,ChrF,3932835,3932839,paired_flanks,high,5,tRNA,tRNA-Ile,,moderate_tRNA,3982035,3982125,49196,False,False
+L4,contig_6,NC_006070.1,ChrD,3374329,3381952,paired_flanks_broad_interval,moderate,7624,tRNA,tRNA-Val,,moderate_tRNA,3375865,3375938,0,False,True
+L4,contig_6,NC_006070.1,ChrD,3374329,3381952,paired_flanks_broad_interval,moderate,7624,long_terminal_repeat,,LTRyl1,high_repeat,3388704,3388976,6752,False,False
